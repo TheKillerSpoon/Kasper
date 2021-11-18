@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kasper3</title>
+  </head>
+  <body>  
+      
+    </body>
+  <style>
+      body {
+          background-color: indigo;
+          animation: disko 2s linear infinite;
+
+      }
+
+      @keyframes disko {
+        0% {background-color: indigo;}
+        10% {background-color: hotpink;}
+        20% {background-color: turquoise;}
+        30% {background-color: powderblue;}
+        40% {background-color: crimson;}
+        50% {background-color: lawngreen;}
+        60% {background-color: sienna;}
+        70% {background-color: mediumspringgreen;}
+        80% {background-color: orangered;}
+        90% {background-color: forestgreen;}
+        100% {background-color: gold;}
+      }
+
+  </style>
+</html>
