@@ -6,28 +6,51 @@
     <title>Kasper3</title>
   </head>
   <body>  
-      
+      <h1>I DID IT</h1>
     </body>
   <style>
-      body {
-          background-color: indigo;
-          animation: disko 2s linear infinite;
 
-      }
+    h1 {
+      margin-top: 50vh;
+      font-size: 100px;
+      text-align: center;
+      animation: disko2 4s linear infinite;
 
-      @keyframes disko {
-        0% {background-color: indigo;}
-        10% {background-color: hotpink;}
-        20% {background-color: turquoise;}
-        30% {background-color: powderblue;}
-        40% {background-color: crimson;}
-        50% {background-color: lawngreen;}
-        60% {background-color: sienna;}
-        70% {background-color: mediumspringgreen;}
-        80% {background-color: orangered;}
-        90% {background-color: forestgreen;}
-        100% {background-color: gold;}
-      }
+    }
+
+    body {
+      background-color: indigo;
+      animation: disko 2s linear infinite;
+
+    }
+
+    @keyframes disko {
+      0% {background-color: indigo;}
+      10% {background-color: hotpink;}
+      20% {background-color: turquoise;}
+      30% {background-color: powderblue;}
+      40% {background-color: crimson;}
+      50% {background-color: lawngreen;}
+      60% {background-color: sienna;}
+      70% {background-color: mediumspringgreen;}
+      80% {background-color: orangered;}
+      90% {background-color: forestgreen;}
+      100% {background-color: gold;}
+    }
+
+    @keyframes disko2 {
+      0% {color: indigo;}
+      10% {color: hotpink;}
+      20% {color: turquoise;}
+      30% {color: powderblue;}
+      40% {color: crimson;}
+      50% {color: lawngreen;}
+      60% {color: sienna;}
+      70% {color: mediumspringgreen;}
+      80% {color: orangered;}
+      90% {color: forestgreen;}
+      100% {color: gold;}
+    }
 
   </style>
 </html>
